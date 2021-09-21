@@ -22,7 +22,7 @@ print("")
 
 # 4. Ask a user for an integer and then print the square root.
 number= float(input("gimme an integer"))
-print("the square root is", number*number)
+print("the square root is", number**0.5)
 
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
