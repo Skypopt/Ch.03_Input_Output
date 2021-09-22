@@ -12,9 +12,4 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
-semgrade=float(input("what is the semester grade? "))
-finalexam=float(input("what is the final exam grade? "))
-examworth=float(input("what is the exam worth? "))
-leftoverweight=1-examworth
-overall= (semgrade*leftoverweight)+(finalexam*examworth)
-print(overall)
+
